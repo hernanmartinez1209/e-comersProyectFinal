@@ -15,9 +15,9 @@ const productsInfo = ({ products }) => {
 
   return (
     <article className="products__info">
-     <div className="box__img-info">
+     {/* <div className="box__img-info">
        <img className="product__img" src={products?.productImgs[0]} />
-     </div>
+     </div> */}
       <h2 className="products__info-title">{products?.title}</h2>
       <footer className="products-info__footer">
         <div className="products-info_prices-container">

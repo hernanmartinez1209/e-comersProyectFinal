@@ -1,9 +1,13 @@
+:root{
+  --color-lether:#515151;
+  --color-red-bg:#f85555;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Yantramanav,sans-serif;
-    color: #515151;
+    color: var(--color-lether);
      }
 .App{
     width: 100%;
