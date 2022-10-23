@@ -34,8 +34,9 @@ console.log(cart);
   .catch(err => console.log(err))
  }
 return (
-    <div>Cart
     <div>
+      <h1 className='title__containt-cart-buy'>Shopping Card</h1>
+    <div className='contain__cardProduct'>
       {
          cart?.products.map(product => (
          
@@ -47,8 +48,8 @@ return (
          
          ))
       }
-   </div>
-      <button onClick={handlePurshes}>Buy Now</button>
+   </div >
+      <button className='btn-finisht_buy'  onClick={handlePurshes}>Buy Now <i className="fa-solid fa-basket-shopping"></i></button>
     </div>
   )
 }
