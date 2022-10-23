@@ -1,0 +1,12 @@
+.similar__title{
+    color: #f85555;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.similar__cart-product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
