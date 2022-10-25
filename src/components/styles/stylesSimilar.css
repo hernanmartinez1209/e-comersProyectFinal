@@ -1,7 +1,7 @@
 .similar__title{
     color: #f85555;
     font-size: 17px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .similar__cart-product{
     width: 100%;
@@ -9,4 +9,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+     
+
 }
+/* @media (min-width: 990px) {
+    .similar__title{
+        
+        padding-left: 0px;
+    }
+} */
