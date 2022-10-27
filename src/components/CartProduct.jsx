@@ -22,7 +22,7 @@ const CartProduct = ({product}) => {
       
       <ul className='contain__info-cart-buy'>
         <li className='item__cart-buy'><span className='name_item__cart-buy'>price:</span>{product.price}</li>
-        <li className='item__cart-buy'><span className='name_item__cart-buy'>Quatity:</span>{product.quantity}</li>
+        <li className='item__cart-buy'><span className='name_item__cart-buy'>Quatity:</span>{product.productsInCart.quantity}</li>
       </ul>
       <p className='info__cart-buy'>{product.description}</p>
       <button className='btnDelete__cart-buy' onClick={handleDelete}><i className='fa-regular fa-trash-can'></i>
