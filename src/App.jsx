@@ -3,7 +3,7 @@
 // import { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Header from './components/shared/header'
+import Header from './components/shared/Header'
 import Cart from './pages/Cart'
 import Home from './pages/Home'
 import LoginScreen from './pages/LoginScreen'
