@@ -1,0 +1,29 @@
+.box__OrderByPrice{
+    width: 180px;
+    height: 70px;
+   
+   
+    
+}
+.contain__Order{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+.title__Order{
+    border-bottom: 2px solid #dcd9d9;
+    
+}
+.btn__Order{
+    font-size: 16px;
+    border: none;
+    background-color: var(--color-red-bg);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}

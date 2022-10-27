@@ -10,7 +10,7 @@ const CartPurchase = ({purchase}) => {
     {
         purchase.cart.products.map(product =>(
 
-            <section key={product.id}>
+            <section className='cart__purchase' key={product.id}>
                 <h3>{product.title}</h3>
                 <span>{product.productsInCart.quantity}</span>
                 <span>{product.price}</span>

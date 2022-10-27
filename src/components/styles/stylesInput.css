@@ -1,0 +1,23 @@
+.box__serch{
+    width: 200px;
+    height: 40px;
+
+}
+.container__inputSearch{
+    width: 100%;
+    margin-left: 10px;
+   
+}
+.title__inputSearch{
+  
+}
+.inputSearch{
+    width: 170px;
+    height: 30px;
+    background-color: rgba(234, 234, 234,0.5);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    
+  
+}

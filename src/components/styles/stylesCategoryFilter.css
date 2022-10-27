@@ -1,0 +1,25 @@
+.box__type-category{
+    height: 200px;
+    margin-top: 50px;
+}
+.contain__Category{
+    list-style: none;
+    width: 180px;
+    height: 150px;
+    
+    
+}
+.title__category{
+    
+    border-bottom: 2px solid #dcd9d9;
+}
+ .list-category,
+.all__Category
+{
+    margin-left: 10px;
+    height: 30px;
+    cursor: pointer;
+    
+} 
+
+

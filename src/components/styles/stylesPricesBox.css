@@ -1,0 +1,35 @@
+.box_category_prices{
+    
+    width: 210px;
+}
+.from__prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.list__category-prices{
+    list-style: none;
+    display:flex ;
+    gap: 10px;
+     flex-wrap: wrap;
+     padding: 10px;
+}
+.input__category-prices{
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EAEAEA;
+    
+
+}
+.btn__category-prices{
+    font-size: 16px;
+    border: none;
+    background-color: var(--color-red-bg);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}

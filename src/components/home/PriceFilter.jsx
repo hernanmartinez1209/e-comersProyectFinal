@@ -1,5 +1,5 @@
 import React from "react";
-
+import stylesPricesBox from'../styles/stylesPricesBox.css'
 const PriceFilter = ({setObjPrices}) => {
  
     const submit = e =>{
@@ -14,20 +14,20 @@ const PriceFilter = ({setObjPrices}) => {
     }
 
   return (
-    <form onSubmit={submit}>
-      PriceFilter
+    <form className="from__prices" onSubmit={submit}>
+      
       <h3>Prices</h3>
-      <ul>
+      <ul className="list__category-prices">
         <li>
-          <label htmlFor="fromPrice"></label>
-          <input type="number" id="fromPrice" />
+          <label htmlFor="fromPrice">From</label>
+          <input className="input__category-prices" type="number" id="fromPrice" />
         </li>
         <li>
-          <label htmlFor="toPrice"></label>
-          <input type="number" id="toPrice" />
+          <label htmlFor="toPrice">To</label>
+          <input className="input__category-prices" type="number" id="toPrice" />
         </li>
       </ul>
- <button>Filter Prices</button>
+ <button className="btn__category-prices">Filter Prices</button>
     </form>
   );
 };

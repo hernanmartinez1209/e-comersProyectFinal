@@ -19,3 +19,12 @@
 img{
     width: 97px;
 }
+.box__filter{
+  width: 200px;
+}
+.tilte__Fliter{
+  text-align: center;
+}
+.icon__Filter{
+  color: var(--color-red-bg);
+}

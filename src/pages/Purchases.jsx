@@ -14,8 +14,9 @@ const Purchases = () => {
          .catch(err => console.log(err))
      }, [])
   return (
-    <div>Purchases
-      <div>
+    <div>
+      <h2>Purchases</h2>
+      <div className='box__Purchases'>
         {
           purchasess?.map(purchase =>(
               <CartPurchase 

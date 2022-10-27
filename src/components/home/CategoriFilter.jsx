@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllProducts, getAllProductsBycategory } from '../../store/slices/products.slices'
-
+import stylesCategoryFilter from'../styles/stylesCategoryFilter.css'
 const CategoriFilter = () => {
      const [categorys, setCategorys] = useState()
 useEffect(() => {
@@ -19,21 +19,21 @@ console.log(products);
 
  const handleClickAllProdutcs = () =>dispatch(getAllProducts())
   return (
-    <div>CategoriFilter
-        <h2>category</h2>
+    <aside className='contain__Category'>
+        <h2 className='title__category'>category</h2>
         <div>
-            <li onClick={handleClickAllProdutcs} >All products</li>
+            <li className='all__Category' onClick={handleClickAllProdutcs} >All products</li>
             {
                 categorys?.categories.map( categorie =>(
-                    <ul key={categorie.id}> 
-                        <li  onClick={() => handleClickCategory(categorie.id)} >{categorie.name}</li>
+                    <ul className='box-list__category' key={categorie.id}> 
+                        <li className='list-category' onClick={() => handleClickCategory(categorie.id)} >{categorie.name}</li>
                     </ul>
                 ))
             }
              
         </div>
 
-    </div>
+    </aside>
   )
 }
 
