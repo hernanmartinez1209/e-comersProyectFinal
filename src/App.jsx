@@ -1,6 +1,6 @@
 
-// import axios from 'axios'
-// import { useEffect } from 'react'
+//  import axios from 'axios'
+//  import { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Header from './components/shared/Header'
@@ -23,8 +23,8 @@ function App() {
   
   // useEffect(() => {
   
-  //   const URL = `https://ecommerce-api-react.herokuapp.com/api/v1/users`
-    // const url = `https://e-commerce-api.academlo.tech/api/v1/users`
+  //   // const URL = `https://ecommerce-api-react.herokuapp.com/api/v1/users`
+  //   const url = `https://e-commerce-api.academlo.tech/api/v1/users`
   //   const data = {
   //     firstName: 'Hernan',
   //     lastName: 'Morazan',
@@ -35,7 +35,7 @@ function App() {
   //   }
 
 
-  //   axios.post(URL ,data)
+  //   axios.post(url ,data)
   //  .then(res => console.log(res.data))
   //  .catch(err => console.log(err))
   // }, [])
