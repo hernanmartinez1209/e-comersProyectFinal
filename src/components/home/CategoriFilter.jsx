@@ -6,7 +6,7 @@ import stylesCategoryFilter from'../styles/stylesCategoryFilter.css'
 const CategoriFilter = () => {
      const [categorys, setCategorys] = useState()
 useEffect(() => {
-    const url ='https://ecommerce-api-react.herokuapp.com/api/v1/products/categories'
+    const url ='https://e-commerce-api.academlo.tech/api/v1/products/categories'
     axios.get(url)
     .then(res => setCategorys(res.data.data))
     .catch(err => console.log(err))

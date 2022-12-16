@@ -15,7 +15,7 @@ import Purchases from './pages/Purchases'
 function App() {
   // useEffect(() => {
   //   const url =`https://ecommerce-api-react.herokuapp.com/api/v1/cart`
-    
+  //   const url = `https://e-commerce-api.academlo.tech/api/v1/cart`
   //   axios.get(url ,getConfig())
   //   .then(res => console.log(res.data))
   //   .catch(err =>console.log(err))
@@ -24,7 +24,7 @@ function App() {
   // useEffect(() => {
   
   //   const URL = `https://ecommerce-api-react.herokuapp.com/api/v1/users`
-    
+    // const url = `https://e-commerce-api.academlo.tech/api/v1/users`
   //   const data = {
   //     firstName: 'Hernan',
   //     lastName: 'Morazan',

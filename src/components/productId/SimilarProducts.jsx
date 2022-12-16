@@ -8,7 +8,7 @@ const SimilarProducts = ({products}) => {
     const [idCategories, setIdCategories] = useState()
     const [similarCategory, setSimilarCategory] = useState()
     useEffect(() => {
-        const url ='https://ecommerce-api-react.herokuapp.com/api/v1/products/categories'
+        const url ='https://e-commerce-api.academlo.tech/api/v1/products/categories'
         axios.get(url)
         .then(res => setCategoris(res.data.data.categories))
         .catch(err => console.log(err))
@@ -25,7 +25,7 @@ const SimilarProducts = ({products}) => {
   useEffect(() => {
     if (idCategories) {
       
-      const URL = `https://ecommerce-api-react.herokuapp.com/api/v1/products?category=${idCategories}`
+      const URL = `https://e-commerce-api.academlo.tech/api/v1/products?category=${idCategories}`
       axios.get(URL)
       .then(res => setSimilarCategory(res.data.data.products))
       .catch(err=> console.log(err))

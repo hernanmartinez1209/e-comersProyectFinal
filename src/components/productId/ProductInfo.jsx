@@ -15,7 +15,7 @@ const productsInfo = ({ products }) => {
     setCounter(counter + 1);
   };
   const  handleAddvart = () =>{
-   const url =`https://ecommerce-api-react.herokuapp.com/api/v1/cart`  
+   const url =`https://e-commerce-api.academlo.tech/api/v1/cart`  
    const data = {
     id: products.id ,
     quantity: counter

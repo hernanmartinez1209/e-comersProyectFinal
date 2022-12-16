@@ -20,14 +20,14 @@ export const {setProductusGlobal , upProducts ,donwProducts}  = productSlices.ac
 export default productSlices.reducer
 
 export const getAllProducts = () => (dispatch) =>{
-    const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/products'
+    const url = 'https://e-commerce-api.academlo.tech/api/v1/products'
     axios.get(url, getConfig())
     .then(res=> dispatch(setProductusGlobal(res.data.data.products)) )
     .catch(err => console.log(err))
 }
 export const getAllProductsBycategory = (id) => (dispatch) =>{
     
-    const url =`https://ecommerce-api-react.herokuapp.com/api/v1/products?category=${id}`  
+    const url =`https://e-commerce-api.academlo.tech/api/v1/products?category=${id}`  
     return axios.get(url)
     .then(res=> dispatch(setProductusGlobal(res.data.data.products)))
     .catch(err => console.log(err))

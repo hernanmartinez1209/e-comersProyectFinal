@@ -13,7 +13,7 @@ export const {setCartGlobal} = cartSlice.actions
 export default cartSlice.reducer
 
 export const getAllCart = () => (dispatch) =>{
-    const URL = 'https://ecommerce-api-react.herokuapp.com/api/v1/cart'
+    const URL = 'https://e-commerce-api.academlo.tech/api/v1/cart'
     return axios.get(URL , getConfig())
     .then(res => dispatch(setCartGlobal(res.data.data.cart)))
     .catch(err => console.log(err))

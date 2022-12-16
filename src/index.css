@@ -1,4 +1,14 @@
 .box__Purchases{
-  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.contain__purchase{
   border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+.upgrade__contain__purchase{
+  border-bottom: 1px solid;
 }
